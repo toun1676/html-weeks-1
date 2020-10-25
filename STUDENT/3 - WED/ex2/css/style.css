@@ -1,0 +1,32 @@
+table{
+    margin: auto;
+    border-collapse: collapse;
+    width: 70%;
+}
+caption{
+    background: rgb(3, 3, 187);
+    color: #fff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    outline: none;
+    opacity: 0,9;
+}
+table th{
+    background: rgb(91, 91, 190);
+    padding: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+table td{
+    padding: 20px;
+}
+tr{
+    border-bottom: 1px solid rgb(192, 168, 168);
+    border-right : 1px solid rgba(177, 166, 166, 0.87);
+    border-left: 1px solid #c2bdbd;
+}
+tbody,
+    tr,
+    td:nth-child(2){
+        text-align: right;
+    }

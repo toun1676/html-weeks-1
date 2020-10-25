@@ -1,0 +1,20 @@
+.grid-container {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    background: #f5f5f5;
+    /* ================= Your code start here ================ */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+   
+
+    /* =================== End code ========================== */
+}
+
+.grid-item {
+    padding: 10px;
+    background: #0057fa;
+    font-size: 40px;
+    border:2px solid #eedf0d;
+}

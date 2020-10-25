@@ -1,0 +1,38 @@
+.grid-container {
+    width: 80%;
+    margin: auto; 
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    grid-template-areas: 
+    "one one one one"
+    "two two three three"
+    "two two five five "
+    "six six six six ";
+}
+
+.grid-item {
+    padding: 10px;
+    background: #08ac90;
+    font-size: 40px;
+    border: 2px solid;
+}
+.item1 {
+    /* ================= Your code start here ================ */
+   grid-area: one;
+    /* =================== End code ========================== */
+}
+.item2 {
+    /* ================= Your code start here ================ */
+    grid-area: two;
+    /* =================== End code ========================== */
+}
+.item5 {
+    /* ================= Your code start here ================ */
+   grid-area: five;
+    /* =================== End code ========================== */
+}
+.item6 {
+    /* ================= Your code start here ================ */
+  grid-area: six;
+    /* =================== End code ========================== */
+}

@@ -1,0 +1,31 @@
+body {
+    background: #000;
+}
+.container {
+    background: #fff;
+    height: 70vh;
+    width: 70%;
+    margin: auto;
+    border:5px solid red;
+
+    /*========Start your code here ====== */
+    display: flex;
+    justify-content: space-between;
+    
+
+    
+
+  
+    /*================ End ================*/
+}
+.box {
+    height: 200px;
+    width: 200px;
+    background: #0011ff;
+    font-size:50px;
+    font-family: sans-serif;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,19 @@
+.grid-container {
+    width: 80%;
+    margin: auto;
+    /* ================= Your code start here ================ */
+    display: grid;
+    grid-template-columns:repeat(3, 1fr) ;
+    grid-column-gap: 10px;
+
+
+
+    /* =================== End code ========================== */
+}
+
+.grid-item {
+    padding: 10px;
+    background: #08ac90;
+    font-size: 40px;
+    border: 2px solid;
+}
